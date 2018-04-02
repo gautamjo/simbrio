@@ -290,7 +290,7 @@
             height: 33.4rem;
         }
         @include respond(phone) {
-            height: 39rem;
+            height: 32rem;
             width: 33em;
         }
         @include respond(medium-phone) {
@@ -335,6 +335,11 @@
         & a {
             display: inline-block;
             margin-right: 73%;
+        }
+        @include respond(phone) {
+            textarea {
+                height: 17.5rem;
+            }
         }
         @include respond(medium-phone) {
             textarea {

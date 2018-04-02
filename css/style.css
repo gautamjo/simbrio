@@ -698,7 +698,7 @@ footer {
         height: 33.4rem; } }
     @media (max-width: 37.5em) {
       .contact__map {
-        height: 39rem;
+        height: 32rem;
         width: 33em; } }
     @media (max-width: 26.5625em) {
       .contact__map {
@@ -737,6 +737,9 @@ footer {
   .contact__form a {
     display: inline-block;
     margin-right: 73%; }
+  @media (max-width: 37.5em) {
+    .contact__form textarea {
+      height: 17.5rem; } }
   @media (max-width: 26.5625em) {
     .contact__form textarea {
       height: 17.5rem; } }
