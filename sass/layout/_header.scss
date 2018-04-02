@@ -1,0 +1,23 @@
+.header {
+    height: 100vh;
+    position: relative;
+    &__text-box {
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        &-content {
+            padding: 1rem;
+        }
+        @include respond(phone) {
+            top: 60%;
+        }
+    }
+    & a {
+        display: inline-block;
+    }
+    @include respond(phone) {
+        background-image: linear-gradient(rgba($color-black, .5), rgba($color-black, .5)), url(../img/header-resize.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}

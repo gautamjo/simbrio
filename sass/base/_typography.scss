@@ -1,0 +1,124 @@
+body {
+    font-family: $open-sans;
+    font-weight: $default-font-weight;
+    color: $color-grey-dark;
+}
+
+.primary-heading {
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    text-shadow: .2rem .2rem .2rem rgba($color-black, 0.7);
+    font-size: 4.5rem;
+    font-weight: $default-font-weight;
+    font-family: $roboto;
+    color: $color-primary;
+    @include red-heading;
+    @include respond(phone) {
+        font-size: 5rem;
+    }
+}
+
+.paragraph {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: $color-white;
+    font-weight: $font-weight-light;
+    text-shadow: .1rem .1rem .1rem $color-black;
+    line-height: 3rem;
+    letter-spacing: .1rem;
+    @include respond(phone) {
+        font-size: 2.1rem;
+    }
+}
+
+.secondary-heading {
+    @include secondary-heading;
+    @include underline;
+    @include respond(tab-port) {
+        font-size: 2.5rem;
+        letter-spacing: .1rem;
+    }
+}
+
+.secondary-heading-1 {
+    @include secondary-heading;
+    @include respond(tab-port) {
+        font-size: 2.5rem;
+        letter-spacing: .1rem;
+    }
+}
+
+.tertiary-heading {
+    color: $color-grey-dark-3;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: $font-weight-light;
+    letter-spacing: .1rem;
+}
+
+.tertiary-heading-1 {
+    color: $color-white;
+    text-transform: uppercase;
+    font-family: $roboto;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: $font-weight-light;
+    letter-spacing: .1rem;
+}
+
+.sub-heading {
+    text-align: center;
+    color: $color-grey-dark-3;
+    font-size: 2rem;
+    font-weight: $font-weight-light;
+}
+
+.heading-h4 {
+    text-align: center;
+    font-family: $roboto;
+    color: $color-grey-dark-3;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    font-weight: $font-weight-light;
+    letter-spacing: .1rem;
+    @include underline;
+}
+
+.heading-h4-1 {
+    text-align: center;
+    font-family: $roboto;
+    color: $color-primary;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: $default-font-weight;
+    letter-spacing: .1rem;
+}
+
+.heading-h5 {
+    color: $color-grey-dark-3;
+    font-size: 1.4rem;
+    font-weight: $default-font-weight;
+}
+
+.heading-h5-1 {
+    color: $color-grey-dark-3;
+    font-size: 2rem;
+    font-family: $roboto;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: $font-weight-light;
+}
+
+.heading-be-the-hero {
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    font-weight: $font-weight-light;
+    color: $color-grey-dark-3;
+}
+
+.be-the-hero-bullets {
+    color: $color-grey-dark;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: $font-weight-light;
+}

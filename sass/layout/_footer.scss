@@ -1,0 +1,23 @@
+footer {
+    padding: 6rem;
+    text-align: center;
+    font-size: 2rem;
+    color: $color-grey-dark-3;
+    line-height: 3rem;
+    font-weight: $font-weight-light;
+    text-transform: uppercase;
+    & a {
+        text-decoration: none;
+        color: $color-primary;
+    }
+    @include respond(phone) {
+        padding: 6rem 0;
+    }
+}
+
+.center-text {
+    @include respond(phone) {
+        margin: 0 auto;
+        display: inline-block;
+    }
+}

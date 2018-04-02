@@ -1,0 +1,36 @@
+.btn {
+    text-decoration: none;
+    color: $color-white;
+    font-size: 1.2rem;
+    font-weight: $default-font-weight;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: $default-btn-box-shadow;
+    &-nav {
+        background-color: $color-primary-2;
+        padding: 1.8rem 3rem;
+        border-radius: .3rem;
+        transition: background-color .2s;
+        &:hover {
+            background-color: darken($color-primary-2, 5%);
+        }
+    }
+    &-large {
+        background-color: $color-primary;
+        height: 5.4rem;
+        line-height: 5.4rem;
+        padding: 0 3rem;
+        border-radius: .3rem;
+        transition: background-color .2s;
+        &-red {
+            background-color: $color-primary-2;
+            height: inherit;
+            line-height: inherit;
+            padding: 0 3rem;
+            border-radius: inherit;
+        }
+        &:hover {
+            background-color: darken($color-primary, 15%);
+        }
+    }
+}

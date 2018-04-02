@@ -1,0 +1,14 @@
+.bg-video {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: -5;
+    &__content {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    @include respond(phone) {
+        display: none;
+    }
+}

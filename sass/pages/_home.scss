@@ -1,0 +1,338 @@
+.experience {
+    background-color: $color-grey-light-4;
+    &__content-box {
+        padding-top: 7rem;
+    }
+    &__img-box {
+        float: left;
+        margin-right: 2rem;
+        &-small-img {
+            height: 5rem;
+            width: 5rem;
+        }
+        @include clearfix;
+    }
+    &__img-box-text {
+        margin-top: .45rem;
+    }
+    &__after-img {
+        margin-bottom: 8rem;
+    }
+}
+
+.exp-img {
+    height: 30rem;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(darken($color-primary-2, 5%), 1), rgba(darken($color-primary-2, 2%), 1)), url(../img/VR-photo-5-small.jpg);
+    background-blend-mode: multiply;
+    border-radius: .3rem;
+    box-shadow: $default-btn-box-shadow;
+    &__heading {
+        color: $color-white;
+        font-size: 2.5rem;
+        background-color: $color-primary;
+        display: inline-block;
+        padding: 1rem 2rem;
+        border-radius: .3rem 0 2rem 0;
+        letter-spacing: .1rem;
+        box-shadow: $default-btn-box-shadow;
+    }
+}
+
+.exp-img-2 {
+    height: 30rem;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(darken($color-primary-2, 5%), 1), rgba(darken($color-primary-2, 2%), 1)), url(../img/gamification.jpg);
+    background-blend-mode: multiply;
+    box-shadow: $default-btn-box-shadow;
+    border-radius: .3rem;
+    position: relative;
+    &__heading-2 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: $color-white;
+        font-size: 2.5rem;
+        background-color: $color-primary;
+        display: inline-block;
+        padding: 1rem 2rem;
+        border-radius: 0 .3rem 0 2rem;
+        letter-spacing: .1rem;
+        box-shadow: $default-btn-box-shadow;
+    }
+}
+
+.be-the-hero__img {
+    width: 100%;
+    margin-bottom: 8rem;
+    &-tag {
+        width: inherit;
+        border-radius: .3rem;
+        box-shadow: $default-btn-box-shadow;
+    }
+}
+
+.experience-part-2 {
+    background-color: $color-white;
+}
+
+.experience-part-3 {
+    background-color: $color-grey-light-4;
+}
+
+.why-interactive {
+    height: 40rem;
+    &__360deg {
+        height: 100%;
+        background-blend-mode: color;
+        background-image: linear-gradient($color-primary-2, $color-primary-2), url(../img/360bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    &__content {
+        color: $color-white;
+        text-align: center;
+        font-size: $default-font-size;
+        &-icon {
+            font-size: 6.5rem;
+        }
+    }
+}
+
+.services {
+    color: $color-grey-dark-3;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: $font-weight-light;
+    &__icons {
+        background-color: $color-primary-2;
+        color: $color-white;
+        font-size: 5rem;
+        padding: .5rem 2rem;
+        display: inline-block;
+        margin-bottom: 2rem;
+        border-radius: .3rem;
+        box-shadow: $default-btn-box-shadow;
+    }
+}
+
+.platform {
+    text-align: center;
+    background-color: $color-grey-light-4;
+    &__content {
+        color: $color-grey-dark-3;
+        font-size: 1.5em;
+        font-weight: $font-weight-light;
+        &-icons {
+            display: inline-block;
+            font-size: 3rem;
+            color: $color-primary;
+            padding: .2rem 1rem;
+            margin-bottom: 1rem;
+            border: .1rem solid $color-black;
+        }
+    }
+    &__anchor {
+        padding-bottom: 8rem;
+        margin-top: -2.5rem;
+    }
+    & a {
+        display: inline-block;
+    }
+}
+
+.features {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: $color-grey-dark-3;
+    &__img-box {
+        margin-top: .5rem;
+        width: 100%;
+        &-img {
+            width: inherit;
+            border-radius: .3rem;
+        }
+    }
+    &__extra {
+        font-size: 2rem;
+        text-transform: none;
+        &-text {
+            font-size: 1.4rem;
+        }
+    }
+}
+
+.measure {
+    background-color: $color-primary-2;
+    padding: 6rem 0;
+    font-size: 1.4rem;
+    color: $color-white;
+    &__management {
+        text-transform: uppercase;
+        font-family: $roboto;
+        font-size: 2rem;
+    }
+    &__img-box {
+        width: 100%;
+        &-img {
+            width: 100%;
+            border-radius: .3rem;
+        }
+    }
+}
+
+.contacted {
+    text-align: center;
+    font-size: 2rem;
+    color: $color-grey-dark;
+    & a {
+        display: inline-block;
+    }
+}
+
+.demo {
+    padding-bottom: 5rem;
+    text-align: center;
+    color: $color-white;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    background-color: $color-primary;
+    &__frame {
+        width: 100%;
+        height: 20rem;
+        border: none;
+        margin-bottom: 2rem;
+        border-radius: .3rem;
+        box-shadow: $default-btn-box-shadow;
+    }
+}
+
+.empty {
+    margin-top: 10rem;
+    background-color: $color-grey-dark;
+    height: 10rem;
+}
+
+.contact {
+    padding-top: 10rem;
+    background-image: linear-gradient(rgba(41, 41, 41, 0.4), rgba(41, 41, 41, 0.4)), url(../img/abstract.jpg);
+    height: 95rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: $color-white;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: $font-weight-light;
+    &__text {
+        font-size: 2.5rem;
+        position: relative;
+        line-height: 6rem;
+        letter-spacing: .1rem;
+        &::after {
+            content: "";
+            display: block;
+            background-color: $color-white;
+            height: .1rem;
+            width: 5rem;
+            position: absolute;
+            top: 110%;
+            left: 47%;
+        }
+    }
+    &__links {
+        background-color: rgba($color-white, .1);
+        padding: 1.5rem 0;
+        margin-bottom: 3rem;
+        &-list {
+            list-style-type: none;
+            & li {
+                display: inline-block;
+                text-transform: uppercase;
+                font-size: 1.2rem;
+                font-weight: $default-font-weight;
+                letter-spacing: .1rem;
+                transition: color 0.2s;
+                &:not(:last-child) {
+                    margin-right: 4rem;
+                }
+                &:hover {
+                    color: $color-primary;
+                }
+            }
+        }
+    }
+    &__map-box {
+        background-color: rgba($color-white, .2);
+        padding: 4rem 1rem;
+        overflow: hidden;
+        &-text {
+            text-align: left;
+            padding-left: 1rem;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            font-weight: $default-font-weight;
+            letter-spacing: .1rem;
+        }
+    }
+    &__map {
+        margin: 0 auto;
+        height: 35.7rem;
+        width: 40rem;
+        margin-bottom: 2rem;
+        @include respond(tab-port) {
+            height: 33.4rem;
+        }
+        @include respond(phone) {
+            height: 39rem;
+            width: 22em;
+        }
+        @include respond(small-phone) {
+            height: 33rem;
+            width: 20em;
+        }
+    }
+    &__details {
+        font-weight: $default-font-weight;
+        text-align: left;
+        line-height: 2.5rem;
+        padding-left: 1.5rem;
+        letter-spacing: .1rem;
+        @include respond(phone) {
+            letter-spacing: 0;
+        }
+    }
+    &__form {
+        &-label {
+            display: block;
+            text-align: left;
+            padding-left: 1rem;
+            margin-bottom: 1rem;
+            font-weight: $default-font-weight;
+            letter-spacing: .1rem;
+        }
+        &-input {
+            display: inline-block;
+            width: 95%;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            resize: none;
+            outline: none;
+            background-color: rgba($color-grey-dark-3, .7);
+            border: none;
+            color: $color-white;
+        }
+        & a {
+            display: inline-block;
+            margin-right: 73%;
+        }
+        @include respond(small-phone) {
+            textarea {
+                height: 21rem;
+            }
+        }
+    }
+}

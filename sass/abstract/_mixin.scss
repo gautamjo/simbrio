@@ -1,0 +1,94 @@
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin blue-heading {
+    &-blue {
+        color: $color-primary;
+    }
+}
+
+@mixin red-heading {
+    &-red {
+        color: $color-primary-2;
+    }
+}
+
+@mixin underline {
+    &::after {
+        content: "";
+        display: block;
+        background-color: $color-grey-dark-3;
+        height: .1rem;
+        width: 5rem;
+        margin: 2rem auto;
+        border-radius: .1rem;
+    }
+}
+
+@mixin secondary-heading {
+    color: $color-grey-dark-3;
+    text-align: center;
+    font-family: $roboto;
+    font-size: 3rem;
+    font-weight: $font-weight-light;
+    text-transform: uppercase;
+    line-height: 4rem;
+    letter-spacing: .1rem;
+    @include blue-heading;
+    @include red-heading;
+}
+
+// Media Manager
+
+/*
+0 - 600px: Phone
+600 - 900px: Tablet portrait
+900 - 1200px: Tablet landscape
+1200 - 1800px: current style applies
+1800px and beyond: Big desktop 
+*/
+
+
+/* $breakpoints arguments choices:
+- phone
+- tab-port
+- tab-land
+_ big-desk */
+
+@mixin respond($breakpoint) {
+    @if $breakpoint==small-phone {
+        @media (max-width: 26.56em) {
+            @content
+        }
+        ;
+    }
+    @if $breakpoint==phone {
+        @media (max-width: 37.5em) {
+            @content
+        }
+        ;
+    }
+    @if $breakpoint==tab-port {
+        @media (max-width: 56.25em) {
+            @content
+        }
+        ;
+    }
+    @if $breakpoint==tab-land {
+        @media (max-width: 75em) {
+            @content
+        }
+        ;
+    }
+    @if $breakpoint==big-desk {
+        @media (min-width: 112.5em) {
+            @content
+        }
+        ;
+    }
+}
