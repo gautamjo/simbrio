@@ -62,7 +62,7 @@ _ big-desk */
 
 @mixin respond($breakpoint) {
     @if $breakpoint==small-phone {
-        @media (max-width: 26.56em) {
+        @media (max-width: 26.5625em) {
             @content
         }
         ;

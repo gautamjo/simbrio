@@ -347,13 +347,13 @@ body {
           margin-right: 2rem; } }
   @media (max-width: 56.25em) {
     .row {
-      max-width: 90rem; } }
+      max-width: 98rem; } }
   @media (max-width: 37.5em) {
     .row {
-      max-width: 65rem; } }
-  @media (max-width: 26.56em) {
+      max-width: 90rem; } }
+  @media (max-width: 26.5625em) {
     .row {
-      max-width: 58rem; } }
+      max-width: 64rem; } }
   .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2); }
     @media (max-width: 37.5em) {
@@ -686,11 +686,11 @@ footer {
     @media (max-width: 37.5em) {
       .contact__map {
         height: 39rem;
-        width: 22em; } }
-    @media (max-width: 26.56em) {
+        width: 33em; } }
+    @media (max-width: 26.5625em) {
       .contact__map {
-        height: 33rem;
-        width: 20em; } }
+        height: 32rem;
+        width: 28rem; } }
   .contact__details {
     font-weight: 400;
     text-align: left;
@@ -720,6 +720,6 @@ footer {
   .contact__form a {
     display: inline-block;
     margin-right: 73%; }
-  @media (max-width: 26.56em) {
+  @media (max-width: 26.5625em) {
     .contact__form textarea {
-      height: 21rem; } }
+      height: 17.5rem; } }

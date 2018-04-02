@@ -18,13 +18,13 @@
         }
     }
     @include respond(tab-port) {
-        max-width: 90rem;
+        max-width: 98rem;
     }
     @include respond(phone) {
-        max-width: 65rem;
+        max-width: 90rem;
     }
     @include respond(small-phone) {
-        max-width: 58rem;
+        max-width: 64rem;
     }
     .col-1-of-2 {
         width: calc((100% - #{$gutter-horizontal}) / 2);
