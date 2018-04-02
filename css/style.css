@@ -326,7 +326,7 @@ body {
     display: inline-block; }
   @media (max-width: 37.5em) {
     .header {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/header-resize.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/header.jpg);
       background-size: cover;
       background-position: center; } }
 
