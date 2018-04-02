@@ -1,1 +1,5 @@
-# simbrio
+### simbrio
+
+This is a landing page for a fictitious AR/MR/VR edtech platform called simbrio. I created this page to practice building a grid system purely with CSS3. I deliberately stayed away from using any fluid grid frameworks. This webpage is purely built using CSS3 and HTML5. A miniscule amout of js was used for calling google-maps api's. One downside of using a custom made grid was that I was not able to make the page fully mobile responsive. It does respond to different screen sizes but not as well as expected. Also, the page seems to work well on chrome, however, on firefox and safari it suffers from minor bugs. I will be making the page more robust and flexible in the time to come.
+
+The insipration to build a page for an edtech startup came from a pre-exiting french edtech startup named [uptale](http://uptale.io/). I was inspired by the simple grid system of the site and hence decided to work on a similar concept.   
