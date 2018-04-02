@@ -20,11 +20,17 @@
     @include respond(tab-port) {
         max-width: 98rem;
     }
+    @include respond(tab) {
+        max-width: 90rem;
+    }
     @include respond(phone) {
         max-width: 90rem;
     }
-    @include respond(small-phone) {
+    @include respond(medium-phone) {
         max-width: 64rem;
+    }
+    @include respond(small-phone) {
+        max-width: 58rem;
     }
     .col-1-of-2 {
         width: calc((100% - #{$gutter-horizontal}) / 2);

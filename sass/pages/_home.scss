@@ -293,9 +293,13 @@
             height: 39rem;
             width: 33em;
         }
-        @include respond(small-phone) {
+        @include respond(medium-phone) {
             height: 32rem;
             width: 28rem;
+        }
+        @include respond(small-phone) {
+            height: 29.5rem;
+            width: 26rem;
         }
     }
     &__details {
@@ -331,6 +335,11 @@
         & a {
             display: inline-block;
             margin-right: 73%;
+        }
+        @include respond(medium-phone) {
+            textarea {
+                height: 17.5rem;
+            }
         }
         @include respond(small-phone) {
             textarea {

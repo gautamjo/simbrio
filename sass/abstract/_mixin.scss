@@ -62,6 +62,12 @@ _ big-desk */
 
 @mixin respond($breakpoint) {
     @if $breakpoint==small-phone {
+        @media (max-width: 23.4375em) {
+            @content
+        }
+        ;
+    }
+    @if $breakpoint==medium-phone {
         @media (max-width: 26.5625em) {
             @content
         }
@@ -69,6 +75,12 @@ _ big-desk */
     }
     @if $breakpoint==phone {
         @media (max-width: 37.5em) {
+            @content
+        }
+        ;
+    }
+    @if $breakpoint==tab {
+        @media (max-width: 48em) {
             @content
         }
         ;

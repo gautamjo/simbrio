@@ -16,6 +16,10 @@
         &-link>img {
             height: 90%;
         }
+        @include respond(big-desk) {
+            max-width: 180rem;
+            margin: 0 auto;
+        }
     }
     &__label {
         display: none;

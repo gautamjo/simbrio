@@ -234,6 +234,10 @@ body {
       padding: 1rem; }
     .nav-container__box-link > img {
       height: 90%; }
+    @media (min-width: 112.5em) {
+      .nav-container__box {
+        max-width: 180rem;
+        margin: 0 auto; } }
   .nav-container__label {
     display: none;
     position: absolute;
@@ -348,12 +352,18 @@ body {
   @media (max-width: 56.25em) {
     .row {
       max-width: 98rem; } }
+  @media (max-width: 48em) {
+    .row {
+      max-width: 90rem; } }
   @media (max-width: 37.5em) {
     .row {
       max-width: 90rem; } }
   @media (max-width: 26.5625em) {
     .row {
       max-width: 64rem; } }
+  @media (max-width: 23.4375em) {
+    .row {
+      max-width: 58rem; } }
   .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2); }
     @media (max-width: 37.5em) {
@@ -694,6 +704,10 @@ footer {
       .contact__map {
         height: 32rem;
         width: 28rem; } }
+    @media (max-width: 23.4375em) {
+      .contact__map {
+        height: 29.5rem;
+        width: 26rem; } }
   .contact__details {
     font-weight: 400;
     text-align: left;
@@ -724,5 +738,8 @@ footer {
     display: inline-block;
     margin-right: 73%; }
   @media (max-width: 26.5625em) {
+    .contact__form textarea {
+      height: 17.5rem; } }
+  @media (max-width: 23.4375em) {
     .contact__form textarea {
       height: 17.5rem; } }
