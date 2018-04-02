@@ -283,6 +283,9 @@
         height: 35.7rem;
         width: 40rem;
         margin-bottom: 2rem;
+        @include respond(tab-land) {
+            height: 37.5rem;
+        }
         @include respond(tab-port) {
             height: 33.4rem;
         }
